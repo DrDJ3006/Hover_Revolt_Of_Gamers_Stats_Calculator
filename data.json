@@ -1,0 +1,51 @@
+{
+    "chip_qualities": {
+      "cheap": 4.5,
+      "broken": 5.0,
+      "basic": 5.5,
+      "quality": 6.0,
+      "dirty": 6.5,
+      "high_tech": 7.0,
+      "glowing": 7.5,
+      "freezing": 8.0,
+      "crystal": 8.5,
+      "mystic": 9.0,
+      "royal": 9.5,
+      "ultimate": 10.0
+    },
+    "chip_effects": {
+      "ionic_thruster": {
+        "acceleration": 5,
+        "speed": 10
+      },
+      "pulse_generator": {
+        "jump": 10,
+        "bounciness": 10
+      },
+      "magnetic_dynamo": {
+        "grind_speed": 10,
+        "slide_speed": 10,
+        "energy": 10
+      },
+      "electro_atomic_motor": {
+        "acceleration": 5,
+        "bump_force": 10,
+        "bump_resistance": 10,
+        "ball_handling": 10
+      },
+      "hacking_processor": {
+        "stealth": 10,
+        "hacking": 10,
+        "hoverheat": 10
+      }
+    },
+    "diminishing_bonus": {
+      "ultimate": [10, 8.7, 7.7, 6.9, 6.2, 5.7, 5.3, 4.9, 4.5, 4.3, 4, 3.8, 3.6, 3.4, 3.2],
+      "mystic": [9, 7.8, 6.9, 6.2, 5.6, 5.1, 4.7, 4.4, 4.1, 3.8, 3.6, 3.4, 3.2, 3.1, 2.9],
+      "freezing": [8, 7, 6.2, 5.5, 5, 4.6, 4.2, 3.9, 3.6, 3.4, 3.2, 3, 2.9, 2.7, 2.6],
+      "high_tech": [7, 6.1, 5.4, 4.8, 4.4, 4, 3.7, 3.4, 3.2, 3, 2.8, 2.6, 2.5, 2.4, 2.3],
+      "quality": [6, 5.2, 4.6, 4.1, 3.7, 3.4, 3.2, 2.9, 2.7, 2.6, 2.4, 2.3, 2.1, 2, 1.9],
+      "broken": [5, 4.3, 3.8, 3.4, 3.1, 2.9, 2.6, 2.4, 2.3, 2.1, 2, 1.9, 1.8, 1.7, 1.6]
+    }
+  }
+  
