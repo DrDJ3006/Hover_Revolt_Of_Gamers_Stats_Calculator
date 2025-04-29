@@ -1,42 +1,28 @@
 {
-    "chip_qualities": {
-      "cheap": 4.5,
-      "broken": 5.0,
-      "basic": 5.5,
-      "quality": 6.0,
-      "dirty": 6.5,
-      "high_tech": 7.0,
-      "glowing": 7.5,
-      "freezing": 8.0,
-      "crystal": 8.5,
-      "mystic": 9.0,
-      "royal": 9.5,
-      "ultimate": 10.0
-    },
     "chip_effects": {
       "ionic_thruster": {
-        "acceleration": 5,
-        "speed": 10
+        "acceleration": 0.5,
+        "speed": 1
       },
       "pulse_generator": {
-        "jump": 10,
-        "bounciness": 10
+        "jump": 1,
+        "bounciness": 1
       },
       "magnetic_dynamo": {
-        "grind_speed": 10,
-        "slide_speed": 10,
-        "energy": 10
+        "grind_speed": 1,
+        "slide_speed": 1,
+        "energy": 1
       },
       "electro_atomic_motor": {
-        "acceleration": 5,
-        "bump_force": 10,
-        "bump_resistance": 10,
-        "ball_handling": 10
+        "acceleration": 0.5,
+        "bump_force": 1,
+        "bump_resistance": 1,
+        "ball_handling": 1
       },
       "hacking_processor": {
-        "stealth": 10,
-        "hacking": 10,
-        "hoverheat": 10
+        "stealth": 1,
+        "hacking": 1,
+        "hoverheat": 1
       }
     },
     "diminishing_bonus": {
