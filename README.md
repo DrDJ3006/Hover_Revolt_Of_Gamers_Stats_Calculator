@@ -25,7 +25,7 @@ A Python application with a graphical interface (Tkinter) that lets you **calcul
   - `collections`
   - `os`, `sys`
 
-> ℹ️ `tkinter` is included by default with most Python distributions.  
+> `tkinter` is included by default with most Python distributions.  
 > If it's missing, install it via your package manager:
 
 ---
