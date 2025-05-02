@@ -4,7 +4,7 @@ A Python application with a graphical interface (Tkinter) that lets you **calcul
 
 ---
 
-## 📦 Features
+## Features
 
 - Select any character from the game
 - Choose up to **10 individual chips**
@@ -16,7 +16,7 @@ A Python application with a graphical interface (Tkinter) that lets you **calcul
 
 ---
 
-## 🔧 Requirements
+## Requirements
 
 - Python 3.7 or later (if using source code)
 - Required data files:
@@ -25,7 +25,7 @@ A Python application with a graphical interface (Tkinter) that lets you **calcul
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 project/
@@ -39,13 +39,15 @@ project/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### Option 1: Using the Executable (Recommended for Windows Users)
 
-Simply double-click `Hover_Revolt_Of_Gamers_Stats_Calculator.exe`.
+[Click here to download the executable](https://github.com/DrDJ3006/Hover_Revolt_Of_Gamers_Stats_Calculator/releases/download/v1.0.0/Hover_Revolt_Of_Gamers_Stats_Calculator.exe)
 
-Make sure `characters.json` and `data.json` are located in the same folder.
+Then simply double-click `Hover_Revolt_Of_Gamers_Stats_Calculator.exe` to launch the app.
+
+No installation required — everything is included.
 
 ### Option 2: Using Python (For all OS)
 
@@ -55,7 +57,7 @@ python main.py
 
 ---
 
-## 🧠 JSON Data Format
+## JSON Data Format
 
 ### Example `characters.json`
 
@@ -101,16 +103,16 @@ python main.py
 }
 ```
 
-> ⚠️ The `diminishing_bonus` values define how chip effectiveness decreases as you stack the same chip type multiple times.
+> The `diminishing_bonus` values define how chip effectiveness decreases as you stack the same chip type multiple times.
 
 ---
 
-## 💾 Export Feature
+## Export Feature
 
 Each time you export, the build is saved in `export_chip_config.json`, which is automatically reloaded the next time you start the app.
 
 ---
 
-## 📜 License
+## License
 
 Open-source project — free to use for personal or educational purposes.
