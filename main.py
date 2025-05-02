@@ -1,8 +1,16 @@
 from collections import Counter, OrderedDict, defaultdict
 import json
+import os
+import sys
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
+
+def resource_path(relative_path):
+    """Get absolute path to resource, works for dev and for PyInstaller .exe"""
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
 
 class App:
     def __init__(self, master, character_names, chip_names, quality_names, data):
@@ -233,10 +241,10 @@ def calc_stats(data, build):
     return {stat: round(value) for stat, value in total_bonus.items()}
 
 if __name__ == "__main__":
-    with open("./characters.json", "r") as f:
+    with open(resource_path("characters.json"), "r") as f:
         characters_data = json.load(f)
 
-    with open("./data.json", "r") as f:
+    with open(resource_path("data.json"), "r") as f:
         chip_data = json.load(f)
 
     character_names = list(characters_data.keys())
