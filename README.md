@@ -18,10 +18,15 @@ A Python application with a graphical interface (Tkinter) that lets you **calcul
 
 ## Requirements
 
-- Python 3.7 or later (if using source code)
-- Required data files:
-  - `characters.json` — base stats for each character
-  - `data.json` — chip effects and quality bonus multipliers
+- **Python 3.7 or later**
+- The following standard libraries:
+  - `tkinter` (GUI library — may be missing on some installs like Windows Store Python)
+  - `json`
+  - `collections`
+  - `os`, `sys`
+
+> ℹ️ `tkinter` is included by default with most Python distributions.  
+> If it's missing, install it via your package manager:
 
 ---
 
