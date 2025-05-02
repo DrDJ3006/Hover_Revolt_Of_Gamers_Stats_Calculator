@@ -1,0 +1,71 @@
+{
+  "character": "wattabax",
+  "chips": [
+    {
+      "type": "ionic_thruster",
+      "quality": "ultimate"
+    },
+    {
+      "type": "ionic_thruster",
+      "quality": "ultimate"
+    },
+    {
+      "type": "ionic_thruster",
+      "quality": "ultimate"
+    },
+    {
+      "type": "pulse_generator",
+      "quality": "ultimate"
+    },
+    {
+      "type": "pulse_generator",
+      "quality": ""
+    },
+    {
+      "type": "pulse_generator",
+      "quality": "ultimate"
+    },
+    {
+      "type": "pulse_generator",
+      "quality": "ultimate"
+    },
+    {
+      "type": "magnetic_dynamo",
+      "quality": "ultimate"
+    },
+    {
+      "type": "magnetic_dynamo",
+      "quality": "ultimate"
+    },
+    {
+      "type": "magnetic_dynamo",
+      "quality": "ultimate"
+    }
+  ],
+  "combined_groups": [
+    [
+      {
+        "type": "pulse_generator",
+        "quality": "ultimate"
+      },
+      {
+        "type": "pulse_generator",
+        "quality": "ultimate"
+      }
+    ],
+    [
+      {
+        "type": "ionic_thruster",
+        "quality": "ultimate"
+      },
+      {
+        "type": "ionic_thruster",
+        "quality": "ultimate"
+      }
+    ]
+  ],
+  "boosted_chip": {
+    "type": "magnetic_dynamo",
+    "quality": "ultimate"
+  }
+}
