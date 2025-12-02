@@ -14,6 +14,7 @@ A Python application with a graphical interface (Tkinter) that lets you **calcul
 - Export and auto-load the last configuration
 - Simple and intuitive GUI
 
+<img width="750" height="790" alt="image" src="https://github.com/user-attachments/assets/16412c99-051e-4fcd-92db-61073b55fa0e" />
 ---
 
 ## Requirements
