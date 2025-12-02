@@ -1,6 +1,8 @@
 # Hover Revolt of Gamers - Stats Calculator
 
 A Python application with a graphical interface (Tkinter) that lets you **calculate final character stats** in *Hover: Revolt of Gamers*, based on the **chips** equipped, their **quality**, and potential **combo/boosted bonuses**.
+
+
 <img width="750" height="790" alt="image" src="https://github.com/user-attachments/assets/16412c99-051e-4fcd-92db-61073b55fa0e" />
 
 ---
